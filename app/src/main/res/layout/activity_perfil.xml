@@ -8,7 +8,12 @@
     android:background="@drawable/background"
     tools:context=".perfil">
 
-<ImageView
+  <include
+      layout="@layout/toolbar"
+      tools:layout_editor_absoluteX="0dp"
+      tools:layout_editor_absoluteY="0dp" />
+
+  <ImageView
     android:id="@+id/perfil_foto"
     android:layout_width="150dp"
     android:layout_height="150dp"

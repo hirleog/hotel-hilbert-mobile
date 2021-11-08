@@ -11,7 +11,6 @@ public class FormLogin extends AppCompatActivity {
 
     private TextView text_tela_cadastro;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +22,6 @@ public class FormLogin extends AppCompatActivity {
         text_tela_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intent = new Intent(FormLogin.this,formCadastro.class);
                 startActivity(intent);
             }
